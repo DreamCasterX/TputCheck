@@ -9,4 +9,4 @@ for output in bw_output:
 	sp = pattern.match(output).group("speed")
 	# print("Bandwidth Output: '%s'\n Speed: %s Mb/sec" % (output, sp))
 	speed += float(sp)
-print(f"\n*Speed = {speed} Mb/s*\n\n")
+print(f"\n🚀 Speed = {speed} Mb/s\n\n")
