@@ -43,7 +43,7 @@ CheckNetwork
 
 
 # Get parnter client's IP
-[[ ! -f ./SUT_IP.txt ]] && read -p "Input partner client's IP: " SUT_IP && echo $SUT_IP > SUT_IP.txt || SUT_IP=`cat ./SUT_IP.txt`
+[[ ! -f ./SUT_IP.txt ]] && read -p "Input partner client's IP: " SUT_IP && echo $SUT_IP > SUT_IP.txt || SUT_IP=`cat ./SUT_ip.txt`
 
 
 # Run iperf test
